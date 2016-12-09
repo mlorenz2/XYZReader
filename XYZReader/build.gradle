@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 25
+    }
+}
+
+dependencies {
+    def sdkVersion = '25.0.1'
+    compile "com.android.support:support-v4:${sdkVersion}"
+    compile "com.android.support:support-v13:${sdkVersion}"
+    compile "com.android.support:appcompat-v7:${sdkVersion}"
+    compile "com.android.support:palette-v7:${sdkVersion}"
+    compile "com.android.support:recyclerview-v7:${sdkVersion}"
+    compile "com.android.support:cardview-v7:${sdkVersion}"
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    compile files('libs/volley.jar')
+}
