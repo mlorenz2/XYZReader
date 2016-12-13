@@ -16,14 +16,13 @@
 -->
 
 <resources>
-    <color name="colorPrimary">#673AB7</color>
-    <color name="colorPrimaryDark">#4527A0</color>
-    <color name="colorAccent">#E0D947</color>
+   <color name="colorPrimary">#673AB7</color>
+   <color name="colorPrimaryDark">#4527A0</color>
+   <color name="colorAccent">#FF5451</color>
 
-    <color name="photo_placeholder">#ccc</color>
+   <color name="grey_400">#BDBDBD</color>
+   <color name="grey_800">#424242</color>
+   <color name="photo_placeholder">#ccc</color>
+   <color name="black_alpha_10">#1A000000</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
 </resources>
